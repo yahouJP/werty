@@ -12,6 +12,16 @@ public class main{
 		yojik.getQuest();
 		yojik.setQuest("New quest");
 		yojik.getQuest();
+
+		System.out.println("--------------------------------------------------------------------");
+
+		HeroSword paladin = new HeroSword("Paladin", 666, 100);
+
+		paladin.getNameSword();
+		paladin.getDamage();
+		paladin.getRobustness();
+		paladin.mending(200);
+		paladin.getRobustness();
 		
 	}
 }
