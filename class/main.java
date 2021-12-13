@@ -22,6 +22,16 @@ public class main{
 		paladin.getRobustness();
 		paladin.mending(200);
 		paladin.getRobustness();
+
+		System.out.println("--------------------------------------------------------------------");
+
+		HeroArmor armor = new HeroArmor("Armor", 999, "China");
+
+		armor.getNameArmor();
+		armor.getDefense();
+		armor.getMadeIn();
+		armor.setMadeIn("Japan");
+		armor.getMadeIn();
 		
 	}
 }
